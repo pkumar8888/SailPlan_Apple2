@@ -1,0 +1,32 @@
+# Xcode
+.DS_Store
+*.xcworkspace
+*.xcuserstate
+*.xcuserdata
+DerivedData/
+build/
+
+# Swift Package Manager
+.build/
+# Packages/
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/
+
+# Fastlane
+fastlane/report.xml
+fastlane/screenshots
+fastlane/test_output
+
+# Secrets and config files
+*.env
+*.env.*
+*.xcconfig
+*.plist
+
+# But keep Info.plist (needed for build)
+!Info.plist
+
